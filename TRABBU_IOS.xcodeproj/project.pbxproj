@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0BC9BE21A394010023977D /* SignUpFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BC9BD21A394010023977D /* SignUpFlowCoordinator.swift */; };
+		3A22254B21433D6400840592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22254A21433D6400840592 /* AppDelegate.swift */; };
+		3A22255221433D6A00840592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A22255121433D6A00840592 /* Assets.xcassets */; };
+		3A22255521433D6A00840592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A22255321433D6A00840592 /* LaunchScreen.storyboard */; };
+		3A22256021433D6B00840592 /* TRABBU_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22255F21433D6B00840592 /* TRABBU_IOSTests.swift */; };
+		3A22256B21433D6B00840592 /* TRABBU_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22256A21433D6B00840592 /* TRABBU_IOSUITests.swift */; };
+		3A22257C2143433100840592 /* UIViewControllerMisc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A22257B2143433100840592 /* UIViewControllerMisc.swift */; };
+		3A222581214344DB00840592 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A222580214344DB00840592 /* UIColorExtensions.swift */; };
+		3A2225842143455400840592 /* TrabbuColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2225832143455400840592 /* TrabbuColors.swift */; };
+		3A2225912143475E00840592 /* CreateButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2225902143475E00840592 /* CreateButtonExt.swift */; };
+		3A2433A621D5A5D3002B289D /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2433A521D5A5D3002B289D /* SignUp.swift */; };
+		3A36186521A364100086BAD6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36186421A364100086BAD6 /* Coordinator.swift */; };
+		3A36186721A364430086BAD6 /* StoryBoarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36186621A364430086BAD6 /* StoryBoarded.swift */; };
+		3A36186921A3645F0086BAD6 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36186821A3645F0086BAD6 /* MainCoordinator.swift */; };
+		3A36186B21A3650E0086BAD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A36186A21A3650E0086BAD6 /* Main.storyboard */; };
+		3A36186D21A366180086BAD6 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A36186C21A366180086BAD6 /* TestViewController.swift */; };
+		3ABE6AAA21460D3100F837C0 /* AnchorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA921460D3100F837C0 /* AnchorExtensions.swift */; };
+		3ABE6AAF2147339A00F837C0 /* FontVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE6AAE2147339A00F837C0 /* FontVariables.swift */; };
+		3ABE6AB121473A8E00F837C0 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA22143497B00F837C0 /* OpenSans-Bold.ttf */; };
+		3ABE6AB221473A8E00F837C0 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA12143497B00F837C0 /* OpenSans-BoldItalic.ttf */; };
+		3ABE6AB321473A8E00F837C0 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA02143497B00F837C0 /* OpenSans-ExtraBold.ttf */; };
+		3ABE6AB421473A8E00F837C0 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA42143497B00F837C0 /* OpenSans-ExtraBoldItalic.ttf */; };
+		3ABE6AB521473A8E00F837C0 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA52143497B00F837C0 /* OpenSans-Italic.ttf */; };
+		3ABE6AB621473A8E00F837C0 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA62143497B00F837C0 /* OpenSans-Light.ttf */; };
+		3ABE6AB721473A8E00F837C0 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA72143497B00F837C0 /* OpenSans-LightItalic.ttf */; };
+		3ABE6AB821473A8E00F837C0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA32143497B00F837C0 /* OpenSans-Regular.ttf */; };
+		3ABE6AB921473A8E00F837C0 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA82143497B00F837C0 /* OpenSans-Semibold.ttf */; };
+		3ABE6ABA21473A8E00F837C0 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6A9F2143497B00F837C0 /* OpenSans-SemiboldItalic.ttf */; };
+		3ABE6ABB21473A8F00F837C0 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA22143497B00F837C0 /* OpenSans-Bold.ttf */; };
+		3ABE6ABC21473A8F00F837C0 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA12143497B00F837C0 /* OpenSans-BoldItalic.ttf */; };
+		3ABE6ABD21473A8F00F837C0 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA02143497B00F837C0 /* OpenSans-ExtraBold.ttf */; };
+		3ABE6ABE21473A8F00F837C0 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA42143497B00F837C0 /* OpenSans-ExtraBoldItalic.ttf */; };
+		3ABE6ABF21473A8F00F837C0 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA52143497B00F837C0 /* OpenSans-Italic.ttf */; };
+		3ABE6AC021473A8F00F837C0 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA62143497B00F837C0 /* OpenSans-Light.ttf */; };
+		3ABE6AC121473A8F00F837C0 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA72143497B00F837C0 /* OpenSans-LightItalic.ttf */; };
+		3ABE6AC221473A8F00F837C0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA32143497B00F837C0 /* OpenSans-Regular.ttf */; };
+		3ABE6AC321473A8F00F837C0 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA82143497B00F837C0 /* OpenSans-Semibold.ttf */; };
+		3ABE6AC421473A8F00F837C0 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6A9F2143497B00F837C0 /* OpenSans-SemiboldItalic.ttf */; };
+		3ABE6AC521473A8F00F837C0 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA22143497B00F837C0 /* OpenSans-Bold.ttf */; };
+		3ABE6AC621473A8F00F837C0 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA12143497B00F837C0 /* OpenSans-BoldItalic.ttf */; };
+		3ABE6AC721473A8F00F837C0 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA02143497B00F837C0 /* OpenSans-ExtraBold.ttf */; };
+		3ABE6AC821473A8F00F837C0 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA42143497B00F837C0 /* OpenSans-ExtraBoldItalic.ttf */; };
+		3ABE6AC921473A8F00F837C0 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA52143497B00F837C0 /* OpenSans-Italic.ttf */; };
+		3ABE6ACA21473A8F00F837C0 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA62143497B00F837C0 /* OpenSans-Light.ttf */; };
+		3ABE6ACB21473A8F00F837C0 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA72143497B00F837C0 /* OpenSans-LightItalic.ttf */; };
+		3ABE6ACC21473A8F00F837C0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA32143497B00F837C0 /* OpenSans-Regular.ttf */; };
+		3ABE6ACD21473A8F00F837C0 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6AA82143497B00F837C0 /* OpenSans-Semibold.ttf */; };
+		3ABE6ACE21473A8F00F837C0 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ABE6A9F2143497B00F837C0 /* OpenSans-SemiboldItalic.ttf */; };
+		3ABE6AD02149C26F00F837C0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE6ACF2149C26F00F837C0 /* LoginViewController.swift */; };
+		3ABE6ADB2149CBEC00F837C0 /* CreateLabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE6ADA2149CBEC00F837C0 /* CreateLabelExt.swift */; };
+		3ABE6ADE2149CD6500F837C0 /* CreateTFExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE6ADD2149CD6500F837C0 /* CreateTFExt.swift */; };
+		3ABE6AE02149CDE300F837C0 /* ValidateTFExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE6ADF2149CDE300F837C0 /* ValidateTFExt.swift */; };
+		3ABE6AE4214B185D00F837C0 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE6AE3214B185D00F837C0 /* SignUpModel.swift */; };
+		3ABE6AE7214B18FE00F837C0 /* ValidateStringsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE6AE6214B18FE00F837C0 /* ValidateStringsExt.swift */; };
+		3ABE6AE9214B194E00F837C0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABE6AE8214B194E00F837C0 /* SignUpViewController.swift */; };
+		3ADFE4AF214C9FB600514D9C /* TestButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADFE4AE214C9FB600514D9C /* TestButtonsViewController.swift */; };
+		3AFCB5722197B53B00891CC2 /* TrabbuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB5712197B53B00891CC2 /* TrabbuButton.swift */; };
+		3AFCB5742197B57000891CC2 /* TrabbuTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB5732197B57000891CC2 /* TrabbuTextField.swift */; };
+		3AFCB576219BCFEF00891CC2 /* SignUpTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFCB575219BCFEF00891CC2 /* SignUpTemplate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A22255C21433D6B00840592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A22253F21433D6400840592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A22254621433D6400840592;
+			remoteInfo = TRABBU_IOS;
+		};
+		3A22256721433D6B00840592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A22253F21433D6400840592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A22254621433D6400840592;
+			remoteInfo = TRABBU_IOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A0BC9BD21A394010023977D /* SignUpFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFlowCoordinator.swift; sourceTree = "<group>"; };
+		3A22254721433D6400840592 /* TRABBU_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRABBU_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A22254A21433D6400840592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A22255121433D6A00840592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A22255421433D6A00840592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A22255621433D6A00840592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A22255B21433D6B00840592 /* TRABBU_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRABBU_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A22255F21433D6B00840592 /* TRABBU_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRABBU_IOSTests.swift; sourceTree = "<group>"; };
+		3A22256121433D6B00840592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A22256621433D6B00840592 /* TRABBU_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRABBU_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A22256A21433D6B00840592 /* TRABBU_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRABBU_IOSUITests.swift; sourceTree = "<group>"; };
+		3A22256C21433D6B00840592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A22257B2143433100840592 /* UIViewControllerMisc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerMisc.swift; sourceTree = "<group>"; };
+		3A222580214344DB00840592 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		3A2225832143455400840592 /* TrabbuColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrabbuColors.swift; sourceTree = "<group>"; };
+		3A2225902143475E00840592 /* CreateButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButtonExt.swift; sourceTree = "<group>"; };
+		3A2433A521D5A5D3002B289D /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		3A36186421A364100086BAD6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3A36186621A364430086BAD6 /* StoryBoarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoarded.swift; sourceTree = "<group>"; };
+		3A36186821A3645F0086BAD6 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		3A36186A21A3650E0086BAD6 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3A36186C21A366180086BAD6 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		3ABE6A9F2143497B00F837C0 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		3ABE6AA02143497B00F837C0 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3ABE6AA12143497B00F837C0 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3ABE6AA22143497B00F837C0 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		3ABE6AA32143497B00F837C0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		3ABE6AA42143497B00F837C0 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3ABE6AA52143497B00F837C0 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		3ABE6AA62143497B00F837C0 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		3ABE6AA72143497B00F837C0 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		3ABE6AA82143497B00F837C0 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		3ABE6AA921460D3100F837C0 /* AnchorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorExtensions.swift; sourceTree = "<group>"; };
+		3ABE6AAE2147339A00F837C0 /* FontVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontVariables.swift; sourceTree = "<group>"; };
+		3ABE6ACF2149C26F00F837C0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3ABE6ADA2149CBEC00F837C0 /* CreateLabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLabelExt.swift; sourceTree = "<group>"; };
+		3ABE6ADD2149CD6500F837C0 /* CreateTFExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTFExt.swift; sourceTree = "<group>"; };
+		3ABE6ADF2149CDE300F837C0 /* ValidateTFExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateTFExt.swift; sourceTree = "<group>"; };
+		3ABE6AE3214B185D00F837C0 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		3ABE6AE6214B18FE00F837C0 /* ValidateStringsExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateStringsExt.swift; sourceTree = "<group>"; };
+		3ABE6AE8214B194E00F837C0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3ADFE4AE214C9FB600514D9C /* TestButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestButtonsViewController.swift; sourceTree = "<group>"; };
+		3AFCB5712197B53B00891CC2 /* TrabbuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrabbuButton.swift; sourceTree = "<group>"; };
+		3AFCB5732197B57000891CC2 /* TrabbuTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrabbuTextField.swift; sourceTree = "<group>"; };
+		3AFCB575219BCFEF00891CC2 /* SignUpTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTemplate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A22254421433D6400840592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22255821433D6B00840592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22256321433D6B00840592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0BC9BC21A391CA0023977D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A36186C21A366180086BAD6 /* TestViewController.swift */,
+				3ABE6ACF2149C26F00F837C0 /* LoginViewController.swift */,
+				3ABE6AE8214B194E00F837C0 /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3A22253E21433D6400840592 = {
+			isa = PBXGroup;
+			children = (
+				3A22254921433D6400840592 /* TRABBU_IOS */,
+				3A22255E21433D6B00840592 /* TRABBU_IOSTests */,
+				3A22256921433D6B00840592 /* TRABBU_IOSUITests */,
+				3A22254821433D6400840592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A22254821433D6400840592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A22254721433D6400840592 /* TRABBU_IOS.app */,
+				3A22255B21433D6B00840592 /* TRABBU_IOSTests.xctest */,
+				3A22256621433D6B00840592 /* TRABBU_IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A22254921433D6400840592 /* TRABBU_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A22254A21433D6400840592 /* AppDelegate.swift */,
+				3A36186A21A3650E0086BAD6 /* Main.storyboard */,
+				3A0BC9BC21A391CA0023977D /* ViewControllers */,
+				3A36186321A363F70086BAD6 /* Coordinator */,
+				3AFCB577219D0E2D00891CC2 /* UIKitSubclasses */,
+				3ABE6AE2214B184700F837C0 /* Models */,
+				3A22257821433D7E00840592 /* Views */,
+				3A22257D2143442D00840592 /* Extensions */,
+				3A2225822143452C00840592 /* Constants */,
+				3A22255121433D6A00840592 /* Assets.xcassets */,
+				3A22255321433D6A00840592 /* LaunchScreen.storyboard */,
+				3A22255621433D6A00840592 /* Info.plist */,
+			);
+			path = TRABBU_IOS;
+			sourceTree = "<group>";
+		};
+		3A22255E21433D6B00840592 /* TRABBU_IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A22255F21433D6B00840592 /* TRABBU_IOSTests.swift */,
+				3A22256121433D6B00840592 /* Info.plist */,
+			);
+			path = TRABBU_IOSTests;
+			sourceTree = "<group>";
+		};
+		3A22256921433D6B00840592 /* TRABBU_IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A22256A21433D6B00840592 /* TRABBU_IOSUITests.swift */,
+				3A22256C21433D6B00840592 /* Info.plist */,
+			);
+			path = TRABBU_IOSUITests;
+			sourceTree = "<group>";
+		};
+		3A22257821433D7E00840592 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A4FD31021520CC6009298ED /* SignUp */,
+				3ADFE4AE214C9FB600514D9C /* TestButtonsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A22257D2143442D00840592 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE6AE5214B18D700F837C0 /* String */,
+				3ABE6ADC2149CD4600F837C0 /* UITextField */,
+				3ABE6AD92149CBC100F837C0 /* UILabel */,
+				3ABE6AD82149CBAF00F837C0 /* UIColor */,
+				3ABE6AAB21460D4500F837C0 /* UIView */,
+				3A22257F2143446600840592 /* UIButton */,
+				3A22257E2143443900840592 /* UIViewController */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A22257E2143443900840592 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3A22257B2143433100840592 /* UIViewControllerMisc.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		3A22257F2143446600840592 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				3A2225902143475E00840592 /* CreateButtonExt.swift */,
+				3ABE6AD42149C50100F837C0 /* Button Actions */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		3A2225822143452C00840592 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3A222585214346BD00840592 /* Fonts */,
+				3A2225832143455400840592 /* TrabbuColors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3A222585214346BD00840592 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE6AAE2147339A00F837C0 /* FontVariables.swift */,
+				3ABE6AB0214734CD00F837C0 /* Font Files */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3A36186321A363F70086BAD6 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				3A36186421A364100086BAD6 /* Coordinator.swift */,
+				3A36186621A364430086BAD6 /* StoryBoarded.swift */,
+				3A36186821A3645F0086BAD6 /* MainCoordinator.swift */,
+				3A0BC9BD21A394010023977D /* SignUpFlowCoordinator.swift */,
+				3A2433A521D5A5D3002B289D /* SignUp.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		3A4FD31021520CC6009298ED /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		3ABE6AAB21460D4500F837C0 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE6AA921460D3100F837C0 /* AnchorExtensions.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		3ABE6AB0214734CD00F837C0 /* Font Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE6AA22143497B00F837C0 /* OpenSans-Bold.ttf */,
+				3ABE6AA12143497B00F837C0 /* OpenSans-BoldItalic.ttf */,
+				3ABE6AA02143497B00F837C0 /* OpenSans-ExtraBold.ttf */,
+				3ABE6AA42143497B00F837C0 /* OpenSans-ExtraBoldItalic.ttf */,
+				3ABE6AA52143497B00F837C0 /* OpenSans-Italic.ttf */,
+				3ABE6AA62143497B00F837C0 /* OpenSans-Light.ttf */,
+				3ABE6AA72143497B00F837C0 /* OpenSans-LightItalic.ttf */,
+				3ABE6AA32143497B00F837C0 /* OpenSans-Regular.ttf */,
+				3ABE6AA82143497B00F837C0 /* OpenSans-Semibold.ttf */,
+				3ABE6A9F2143497B00F837C0 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = "Font Files";
+			sourceTree = "<group>";
+		};
+		3ABE6AD42149C50100F837C0 /* Button Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Button Actions";
+			sourceTree = "<group>";
+		};
+		3ABE6AD82149CBAF00F837C0 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				3A222580214344DB00840592 /* UIColorExtensions.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		3ABE6AD92149CBC100F837C0 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE6ADA2149CBEC00F837C0 /* CreateLabelExt.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		3ABE6ADC2149CD4600F837C0 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE6ADD2149CD6500F837C0 /* CreateTFExt.swift */,
+				3ABE6ADF2149CDE300F837C0 /* ValidateTFExt.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		3ABE6AE2214B184700F837C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE6AE3214B185D00F837C0 /* SignUpModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3ABE6AE5214B18D700F837C0 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				3ABE6AE6214B18FE00F837C0 /* ValidateStringsExt.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		3AFCB577219D0E2D00891CC2 /* UIKitSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				3AFCB575219BCFEF00891CC2 /* SignUpTemplate.swift */,
+				3AFCB5732197B57000891CC2 /* TrabbuTextField.swift */,
+				3AFCB5712197B53B00891CC2 /* TrabbuButton.swift */,
+			);
+			path = UIKitSubclasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A22254621433D6400840592 /* TRABBU_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A22256F21433D6B00840592 /* Build configuration list for PBXNativeTarget "TRABBU_IOS" */;
+			buildPhases = (
+				3A22254321433D6400840592 /* Sources */,
+				3A22254421433D6400840592 /* Frameworks */,
+				3A22254521433D6400840592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRABBU_IOS;
+			productName = TRABBU_IOS;
+			productReference = 3A22254721433D6400840592 /* TRABBU_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A22255A21433D6B00840592 /* TRABBU_IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A22257221433D6B00840592 /* Build configuration list for PBXNativeTarget "TRABBU_IOSTests" */;
+			buildPhases = (
+				3A22255721433D6B00840592 /* Sources */,
+				3A22255821433D6B00840592 /* Frameworks */,
+				3A22255921433D6B00840592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A22255D21433D6B00840592 /* PBXTargetDependency */,
+			);
+			name = TRABBU_IOSTests;
+			productName = TRABBU_IOSTests;
+			productReference = 3A22255B21433D6B00840592 /* TRABBU_IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A22256521433D6B00840592 /* TRABBU_IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A22257521433D6B00840592 /* Build configuration list for PBXNativeTarget "TRABBU_IOSUITests" */;
+			buildPhases = (
+				3A22256221433D6B00840592 /* Sources */,
+				3A22256321433D6B00840592 /* Frameworks */,
+				3A22256421433D6B00840592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A22256821433D6B00840592 /* PBXTargetDependency */,
+			);
+			name = TRABBU_IOSUITests;
+			productName = TRABBU_IOSUITests;
+			productReference = 3A22256621433D6B00840592 /* TRABBU_IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A22253F21433D6400840592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Garen Kantarci";
+				TargetAttributes = {
+					3A22254621433D6400840592 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3A22255A21433D6B00840592 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3A22254621433D6400840592;
+					};
+					3A22256521433D6B00840592 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3A22254621433D6400840592;
+					};
+				};
+			};
+			buildConfigurationList = 3A22254221433D6400840592 /* Build configuration list for PBXProject "TRABBU_IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A22253E21433D6400840592;
+			productRefGroup = 3A22254821433D6400840592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A22254621433D6400840592 /* TRABBU_IOS */,
+				3A22255A21433D6B00840592 /* TRABBU_IOSTests */,
+				3A22256521433D6B00840592 /* TRABBU_IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A22254521433D6400840592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABE6AB821473A8E00F837C0 /* OpenSans-Regular.ttf in Resources */,
+				3ABE6AB921473A8E00F837C0 /* OpenSans-Semibold.ttf in Resources */,
+				3A22255521433D6A00840592 /* LaunchScreen.storyboard in Resources */,
+				3ABE6AB421473A8E00F837C0 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				3ABE6ABA21473A8E00F837C0 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				3ABE6AB621473A8E00F837C0 /* OpenSans-Light.ttf in Resources */,
+				3A22255221433D6A00840592 /* Assets.xcassets in Resources */,
+				3ABE6AB221473A8E00F837C0 /* OpenSans-BoldItalic.ttf in Resources */,
+				3ABE6AB121473A8E00F837C0 /* OpenSans-Bold.ttf in Resources */,
+				3ABE6AB321473A8E00F837C0 /* OpenSans-ExtraBold.ttf in Resources */,
+				3ABE6AB521473A8E00F837C0 /* OpenSans-Italic.ttf in Resources */,
+				3A36186B21A3650E0086BAD6 /* Main.storyboard in Resources */,
+				3ABE6AB721473A8E00F837C0 /* OpenSans-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22255921433D6B00840592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABE6AC021473A8F00F837C0 /* OpenSans-Light.ttf in Resources */,
+				3ABE6ABC21473A8F00F837C0 /* OpenSans-BoldItalic.ttf in Resources */,
+				3ABE6AC121473A8F00F837C0 /* OpenSans-LightItalic.ttf in Resources */,
+				3ABE6AC321473A8F00F837C0 /* OpenSans-Semibold.ttf in Resources */,
+				3ABE6ABB21473A8F00F837C0 /* OpenSans-Bold.ttf in Resources */,
+				3ABE6ABD21473A8F00F837C0 /* OpenSans-ExtraBold.ttf in Resources */,
+				3ABE6AC421473A8F00F837C0 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				3ABE6ABF21473A8F00F837C0 /* OpenSans-Italic.ttf in Resources */,
+				3ABE6AC221473A8F00F837C0 /* OpenSans-Regular.ttf in Resources */,
+				3ABE6ABE21473A8F00F837C0 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22256421433D6B00840592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABE6ACA21473A8F00F837C0 /* OpenSans-Light.ttf in Resources */,
+				3ABE6AC621473A8F00F837C0 /* OpenSans-BoldItalic.ttf in Resources */,
+				3ABE6ACB21473A8F00F837C0 /* OpenSans-LightItalic.ttf in Resources */,
+				3ABE6ACD21473A8F00F837C0 /* OpenSans-Semibold.ttf in Resources */,
+				3ABE6AC521473A8F00F837C0 /* OpenSans-Bold.ttf in Resources */,
+				3ABE6AC721473A8F00F837C0 /* OpenSans-ExtraBold.ttf in Resources */,
+				3ABE6ACE21473A8F00F837C0 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				3ABE6AC921473A8F00F837C0 /* OpenSans-Italic.ttf in Resources */,
+				3ABE6ACC21473A8F00F837C0 /* OpenSans-Regular.ttf in Resources */,
+				3ABE6AC821473A8F00F837C0 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A22254321433D6400840592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A36186721A364430086BAD6 /* StoryBoarded.swift in Sources */,
+				3A0BC9BE21A394010023977D /* SignUpFlowCoordinator.swift in Sources */,
+				3ABE6ADE2149CD6500F837C0 /* CreateTFExt.swift in Sources */,
+				3AFCB576219BCFEF00891CC2 /* SignUpTemplate.swift in Sources */,
+				3ABE6ADB2149CBEC00F837C0 /* CreateLabelExt.swift in Sources */,
+				3ABE6AD02149C26F00F837C0 /* LoginViewController.swift in Sources */,
+				3AFCB5722197B53B00891CC2 /* TrabbuButton.swift in Sources */,
+				3A22254B21433D6400840592 /* AppDelegate.swift in Sources */,
+				3ABE6AE4214B185D00F837C0 /* SignUpModel.swift in Sources */,
+				3A36186521A364100086BAD6 /* Coordinator.swift in Sources */,
+				3A36186D21A366180086BAD6 /* TestViewController.swift in Sources */,
+				3A2225842143455400840592 /* TrabbuColors.swift in Sources */,
+				3ABE6AAA21460D3100F837C0 /* AnchorExtensions.swift in Sources */,
+				3ADFE4AF214C9FB600514D9C /* TestButtonsViewController.swift in Sources */,
+				3ABE6AE02149CDE300F837C0 /* ValidateTFExt.swift in Sources */,
+				3ABE6AE9214B194E00F837C0 /* SignUpViewController.swift in Sources */,
+				3AFCB5742197B57000891CC2 /* TrabbuTextField.swift in Sources */,
+				3A2225912143475E00840592 /* CreateButtonExt.swift in Sources */,
+				3A22257C2143433100840592 /* UIViewControllerMisc.swift in Sources */,
+				3ABE6AAF2147339A00F837C0 /* FontVariables.swift in Sources */,
+				3A36186921A3645F0086BAD6 /* MainCoordinator.swift in Sources */,
+				3ABE6AE7214B18FE00F837C0 /* ValidateStringsExt.swift in Sources */,
+				3A222581214344DB00840592 /* UIColorExtensions.swift in Sources */,
+				3A2433A621D5A5D3002B289D /* SignUp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22255721433D6B00840592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A22256021433D6B00840592 /* TRABBU_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A22256221433D6B00840592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A22256B21433D6B00840592 /* TRABBU_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A22255D21433D6B00840592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A22254621433D6400840592 /* TRABBU_IOS */;
+			targetProxy = 3A22255C21433D6B00840592 /* PBXContainerItemProxy */;
+		};
+		3A22256821433D6B00840592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A22254621433D6400840592 /* TRABBU_IOS */;
+			targetProxy = 3A22256721433D6B00840592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A22255321433D6A00840592 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A22255421433D6A00840592 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A22256D21433D6B00840592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A22256E21433D6B00840592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A22257021433D6B00840592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MAZA4R22A;
+				INFOPLIST_FILE = TRABBU_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "garen.kantarci1.TRABBU-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A22257121433D6B00840592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MAZA4R22A;
+				INFOPLIST_FILE = TRABBU_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "garen.kantarci1.TRABBU-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A22257321433D6B00840592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MAZA4R22A;
+				INFOPLIST_FILE = TRABBU_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "garen.kantarci1.TRABBU-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRABBU_IOS.app/TRABBU_IOS";
+			};
+			name = Debug;
+		};
+		3A22257421433D6B00840592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MAZA4R22A;
+				INFOPLIST_FILE = TRABBU_IOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "garen.kantarci1.TRABBU-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRABBU_IOS.app/TRABBU_IOS";
+			};
+			name = Release;
+		};
+		3A22257621433D6B00840592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MAZA4R22A;
+				INFOPLIST_FILE = TRABBU_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "garen.kantarci1.TRABBU-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRABBU_IOS;
+			};
+			name = Debug;
+		};
+		3A22257721433D6B00840592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MAZA4R22A;
+				INFOPLIST_FILE = TRABBU_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "garen.kantarci1.TRABBU-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRABBU_IOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A22254221433D6400840592 /* Build configuration list for PBXProject "TRABBU_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A22256D21433D6B00840592 /* Debug */,
+				3A22256E21433D6B00840592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A22256F21433D6B00840592 /* Build configuration list for PBXNativeTarget "TRABBU_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A22257021433D6B00840592 /* Debug */,
+				3A22257121433D6B00840592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A22257221433D6B00840592 /* Build configuration list for PBXNativeTarget "TRABBU_IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A22257321433D6B00840592 /* Debug */,
+				3A22257421433D6B00840592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A22257521433D6B00840592 /* Build configuration list for PBXNativeTarget "TRABBU_IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A22257621433D6B00840592 /* Debug */,
+				3A22257721433D6B00840592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A22253F21433D6400840592 /* Project object */;
+}
